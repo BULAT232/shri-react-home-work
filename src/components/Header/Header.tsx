@@ -5,7 +5,7 @@ import Modal from '../Modal/Modal';
 import { useLoginMutation } from '../../store/reducers/singleMovieApi';
 import { logout } from '../../store/slices/authSlice';
 import ProfileIcon from './components/ProfileIcon';
-import styles from './styles.module.css';
+import styles from './Header.module.css';
 import Button from '../Button/Button';
 import Cookies from 'universal-cookie';
 
