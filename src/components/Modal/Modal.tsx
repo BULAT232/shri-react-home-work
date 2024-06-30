@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from './Modal.module.css'
 import { useState } from 'react';
 import { createPortal } from 'react-dom'
 import Close from '../Close/Close';

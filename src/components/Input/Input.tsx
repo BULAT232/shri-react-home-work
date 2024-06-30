@@ -1,6 +1,6 @@
 import React from 'react';
 import cn from 'classnames';
-import styles from './style.module.css'
+import styles from './Input.module.css'
 export type InputProps = Omit<
     React.InputHTMLAttributes<HTMLInputElement>,
     'onChange' | 'value'

@@ -1,5 +1,5 @@
 import cn from 'clsx'
-import styles from './style.module.css'
+import styles from './Button.module.css'
 
 interface ButtonProps {
     inverse: boolean,
