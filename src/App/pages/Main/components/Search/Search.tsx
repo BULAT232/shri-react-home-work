@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import Input from '../../../../../components/Input/Input';
-import useDebounce from '../../../../hooks/useDebounce';
+import useRebound from '../../../../hooks/useRebound';
 import { useSearchParams } from 'react-router-dom';
 import SearchIcon from './SearchIcon';
 
 const Search = () => {
   const [inpValue, setInpValue] = useState('');
   const plHl = 'Название фильма';
-  const debouncedSearchTerm = useDebounce(inpValue, 500);
+  const debouncedSearchTerm = useRebound(inpValue, 500);
   const [, setSearchParams] = useSearchParams();
 
   useEffect(() => {
