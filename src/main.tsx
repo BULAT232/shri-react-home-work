@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App/App.tsx'
-import './index.css'
+import './global.css'
 import * as Router from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './store/store.ts';
